@@ -1,0 +1,25 @@
+{
+  "name": "projet_vintage",
+  "version": "1.0.0",
+  "description": "projet sass cours isl saniya moustaquim",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bakanours/projet_vintage.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "saniya moustaquim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bakanours/projet_vintage/issues"
+  },
+  "homepage": "https://github.com/Bakanours/projet_vintage#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
