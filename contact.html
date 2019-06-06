@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Vintage - Saniya Moustaquim</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- logo et champ de recherche -->
+        <img src="img/logo.png" alt="logo vintage lab" />
+
+        <input type="search" name="q" placeholder="Que recherchez vous ?" />
+        <input type="submit" name="rechercher" value="OK" />
+
+        <hr>
+
+        <nav>
+
+            <ul>
+                <li><a href="index.html">accueil</a></li>
+            </ul>
+            <ul>
+                <li><a href="meubles.html">meubles</a></li>
+            </ul>
+            <ul>
+                <li><a href="luminaires.html">luminaires</a></li>
+            </ul>
+            <ul>
+                <li><a href="accessoires.html">accessoires</a></li>
+            </ul>
+            <ul>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+
+        </nav>
+        <div class="current-page">
+            <p>vous êtes ici:<a href="contact.html">contact</a></p>
+        </div>
+
+    </header>
+    <main>
+        <!-- iframe de la carte google maps -->
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="800" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=institut%20st%20laurent%20li%C3%A8ge&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a></div>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 300px;
+                    width: 800px;
+                }
+
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 300px;
+                    width: 800px;
+                }
+
+            </style>Web design by <a href="https://www.yellowrocketagency.com">YellowRocketAgency</a>
+        </div>
+
+        <!-- fin iframe google maps -->
+
+        <aside>
+            <h2>Infos contact !</h2>
+            <p class="gras">adresse</p>
+            <p>10 rue machin, 4000 Liège</p>
+            <p class="gras">e-Mail</p>
+            <a href="mailto:vintage@vintage.com"> vintage@vintage.com</a>
+            <p class="gras">tel</p>
+            <p>+32 4 235 15 12 </p>
+            <p class="gras">site:</p>
+            <a href="index.html">www.vintagelab.com</a>
+        </aside>
+
+        <form>
+            <input type="text" name="nom" value="nom" />
+            <br>
+            <input type="text" name="prenom" value="prenom" />
+            <br>
+            <input type="email" name="email" value="email" />
+            <br>
+            <input type="checkbox" name="checkbox" value="abo" />Je veux m'abonner
+            <br>
+            <textarea placeholder="Un commentaire ?" name="texte"></textarea>
+            <input type="submit" value="envoyer" />
+
+
+        </form>
+
+    </main>
+
+
+</body>
+
+</html>

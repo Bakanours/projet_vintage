@@ -4,7 +4,8 @@
   "description": "projet sass cours isl saniya moustaquim",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "scss": "node-sass --watch scss -o css"
   },
   "repository": {
     "type": "git",
