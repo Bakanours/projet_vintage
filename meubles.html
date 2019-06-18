@@ -10,64 +10,76 @@
 </head>
 
 <body>
-    <header>
-        <!-- logo et champ de recherche -->
-        <img src="img/logo.png" alt="logo vintage lab" />
-
-        <input type="search" name="q" placeholder="Que recherchez vous ?" />
-        <input type="submit" name="rechercher" value="OK" />
+     <header>
+        <div class="content">
+            <!-- logo et champ de recherche -->
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="logo vintage lab" /></a>
+            <div class="centered">
+                <input type="search" name="q" placeholder="Que recherchez vous ?" />
+                <input type="submit" name="rechercher" value="OK" />
+            </div>
+        </div>
+        <!-- fin de la div content -->
 
         <hr>
+        <div class="content">
+            <nav class="row">
 
-        <nav>
+                <ul>
+                    <li><a href="index.html">accueil</a></li>
+                </ul>
+                <ul>
+                    <li><a href="meubles.html">meubles</a></li>
+                </ul>
+                <ul>
+                    <li><a href="luminaires.html">luminaires</a></li>
+                </ul>
+                <ul>
+                    <li><a href="accessoires.html">accessoires</a></li>
+                </ul>
+                <ul>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
 
-            <ul>
-                <li><a href="index.html">accueil</a></li>
-            </ul>
-            <ul>
-                <li><a href="meubles.html">meubles</a></li>
-            </ul>
-            <ul>
-                <li><a href="luminaires.html">luminaires</a></li>
-            </ul>
-            <ul>
-                <li><a href="accessoires.html">accessoires</a></li>
-            </ul>
-            <ul>
-                <li><a href="contact.html">contact</a></li>
-            </ul>
-
-        </nav>
-        <div class="current-page">
-            <p>vous êtes ici:<a href="meubles.html">chaises</a></p>
+            </nav>
         </div>
+        <!-- fin de la div content -->
+
+        <div class="current-page">
+            <p class="content">vous êtes ici : <a href="meubles.html">meubles</a></p>
+        </div>
+
     </header>
     <aside>
         <ul>
             <li><a href="#" class="nav-meubles">chaises</a>
+               <hr>
                 <ul>
-                    <li><a href="#">Cuisine</a></li>
-                    <li><a href="#">Sale à manger</a></li>
+                    <li><a href="#" class="min-meubles">Cuisine</a></li>
+                    <li><a href="#" class="min-meubles">Salle à manger</a></li>
                 </ul>
             </li>
             <li><a href="#" class="nav-meubles">tables</a>
+               <hr>
                 <ul>
-                    <li><a href="#">Basses</a></li>
-                    <li><a href="#">Hautes</a></li>
-                    <li><a href="#">Chevet</a></li>
-                    <li><a href="#">Desserte</a></li>
+                    <li><a href="#" class="min-meubles">Basses</a></li>
+                    <li><a href="#" class="min-meubles">Hautes</a></li>
+                    <li><a href="#" class="min-meubles" >Chevet</a></li>
+                    <li><a href="#" class="min-meubles">Desserte</a></li>
                 </ul>
             </li>
-            <li><a href="#" class="nav-meubles">armoire</a></li>
-            <li><a href="#" class="nav-meubles">tables</a></li>
+            <li><a href="#" class="nav-meubles">armoire</a>
+            <hr></li>
+            <li><a href="#" class="nav-meubles">tables</a>
+            <hr></li>
         </ul>
 
 
     </aside>
-    <main>
+    <main class="content">
 
-        <section>
-            <a class="article-a-vendre" href="detail.html">
+        <section class="row">
+            <a class="article-a-vendre col-lg-3" href="detail.html">
                 <article>
                     <img src="img/IMG_7957x z_275x275.jpg" alt="chaise" />
                     <h3>bombay</h3>
@@ -80,7 +92,7 @@
 
                 </article>
             </a>
-            <a class="article-a-vendre" href="detail2.html">
+            <a class="article-a-vendre col-lg-3" href="detail2.html">
                 <article>
                     <img src="img/IMG_5792_275x275.jpg" alt="chaise" />
                     <h3>kima acier</h3>
@@ -91,7 +103,7 @@
 
                 </article>
             </a>
-            <a class="article-a-vendre" href="detail2.html">
+            <a class="article-a-vendre col-lg-3" href="detail2.html">
                 <article>
                     <img src="img/IMG_06579_275x275.jpg" alt="chaise"/>
                     <h3>peaky blue</h3>
@@ -102,7 +114,7 @@
 
                 </article>
             </a>
-            <a class="article-a-vendre" href="detail2.html">
+            <a class="article-a-vendre col-lg-3" href="detail2.html">
                 <article>
                     <img src="img/IMG_3291_275x275.jpg" alt="chaise"/>
                     <h3>DSW red</h3>
@@ -111,7 +123,7 @@
 
                 </article>
             </a>
-            <a class="article-a-vendre" href="detail2.html">
+            <a class="article-a-vendre col-lg-3" href="detail2.html">
                 <article>
                    <img src="img/IMG_5793_275x275.jpg" alt="chaise"/>
                     <h3>V Bar</h3>
@@ -120,7 +132,7 @@
 
                 </article>
             </a>
-            <a class="article-a-vendre" href="detail2.html">
+            <a class="article-a-vendre col-lg-3" href="detail2.html">
                 <article>
                     <img src="img/IMG_0797_275x275.jpg" alt="chaise"/>
                     <h3>pezi</h3>
@@ -129,7 +141,7 @@
 
                 </article>
             </a>
-            <a class="article-a-vendre" href="detail2.html">
+            <a class="article-a-vendre col-lg-3" href="detail2.html">
                 <article>
                       <img src="img/IMG_1898_275x275.jpg" alt="chaise"/>
                     <h3>tulip</h3>
@@ -138,7 +150,7 @@
 
                 </article>
             </a>
-            <a class="article-a-vendre" href="detail2.html">
+            <a class="article-a-vendre col-lg-3" href="detail2.html">
                 <article>
                     <img src="img/bert-jn-zw_275x275.jpg" alt="chaise"/>
                     <h3>bertoia</h3>

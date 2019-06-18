@@ -29,16 +29,31 @@ h3 {
     color: $gray;
 }
 
+/* navigations */
+
 nav ul li {
 
     display: inline;
     margin-left: 1rem;
 }
 
-nav ul li a {
-    text-decoration: none;
+nav ul li a,
+.nav-meubles {
     text-transform: uppercase;
     font-weight: 600;
+    color: $black;
+}
+
+nav ul li a,
+.nav-meubles,
+.article-a-vendre,
+.min-meubles {
+    text-decoration: none;
+}
+
+
+.min-meubles {
+    font-weight: 300;
     color: $black;
 }
 
@@ -86,4 +101,19 @@ input[type=search] {
     font-weight: lighter;
     @include rech;
     border: 1px solid $gray;
+}
+
+article {
+    padding: 1rem;
+    border: 1px solid $gray;
+}
+
+article h3 {
+    text-transform: capitalize;
+    color: $blue;
+}
+
+article p {
+    color: $black;
+    font-weight: 300;
 }

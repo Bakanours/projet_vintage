@@ -11,47 +11,54 @@
 
 <body>
     <header>
-        <!-- logo et champ de recherche -->
-        <img src="img/logo.png" alt="logo vintage lab" />
-
-        <input type="search" name="q" placeholder="Que recherchez vous ?" />
-        <input type="submit" name="rechercher" value="OK" />
+        <div class="content">
+            <!-- logo et champ de recherche -->
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="logo vintage lab" /></a>
+            <div class="centered">
+                <input type="search" name="q" placeholder="Que recherchez vous ?" />
+                <input type="submit" name="rechercher" value="OK" />
+            </div>
+        </div>
+        <!-- fin de la div content -->
 
         <hr>
+        <div class="content">
+            <nav class="row">
 
-        <nav>
+                <ul>
+                    <li><a href="index.html">accueil</a></li>
+                </ul>
+                <ul>
+                    <li><a href="meubles.html">meubles</a></li>
+                </ul>
+                <ul>
+                    <li><a href="luminaires.html">luminaires</a></li>
+                </ul>
+                <ul>
+                    <li><a href="accessoires.html">accessoires</a></li>
+                </ul>
+                <ul>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
 
-            <ul>
-                <li><a href="index.html">accueil</a></li>
-            </ul>
-            <ul>
-                <li><a href="meubles.html">meubles</a></li>
-            </ul>
-            <ul>
-                <li><a href="luminaires.html">luminaires</a></li>
-            </ul>
-            <ul>
-                <li><a href="accessoires.html">accessoires</a></li>
-            </ul>
-            <ul>
-                <li><a href="contact.html">contact</a></li>
-            </ul>
-
-        </nav>
-        <div class="current-page">
-            <p>vous êtes ici:<a href="luminaires.html">luminaires</a></p>
+            </nav>
         </div>
-        <img src="img/slide.jpg" />
+        <!-- fin de la div content -->
+
+        <div class="current-page">
+            <p class="content">vous êtes ici : <a href="luminaires.html">luminaires</a></p>
+        </div>
+
     </header>
-    <main>
-    
-  <section class="wip">
-        
-        
-    </section>
+    <main class="content">
+
+        <section class="wip">
+
+            <h2>Coming soon...</h2>
+        </section>
 
 
-</main>
+    </main>
 
 
 </body>
