@@ -59,7 +59,8 @@ aside.col-lg-4 {
   .col-lg-4 img {
     display: block;
     width: 100%; }
-  article img, .min-meubles {
+  article img,
+  .min-meubles {
     display: none; } }
 
 @media screen and (min-width: 640px) {
@@ -229,16 +230,22 @@ article p {
   font-weight: 300; }
 
 /* contact */
-aside h2 {
+aside h2,
+form h2 {
   font-size: 2rem;
-  padding: .5rem;
-  background-color: #D5E7F2; }
+  padding: 1rem;
+  margin-left: -1rem;
+  margin-top: -1rem;
+  background-color: #D5E7F2;
+  width: 100%; }
 
-form, aside {
+form,
+aside {
   background-color: #AAD5DF;
   padding: 1rem; }
 
-form input, textarea {
+form input,
+textarea {
   padding: 1rem;
   margin: 1rem 0 0 1rem; }
 
@@ -254,3 +261,15 @@ form input[type=submit] {
   border-color: none;
   border-image: none;
   border-radius: 5%; }
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 300px;
+  width: 100%; }
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 300px;
+  width: 100%; }
