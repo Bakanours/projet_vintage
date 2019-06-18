@@ -1,0 +1,12 @@
+.row {
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+/*vue desktop*/
+.col-lg-4 {flex-basis: calc(100% / 12 * 3);}
+.col-lg-1 {flex-basis: calc(100% / 12 * 1);}
+
+

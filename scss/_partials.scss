@@ -1,0 +1,23 @@
+/* #AAD5DF / #A38A7C / #552a20 */
+$black:#000;
+
+$white:#fff;
+$gray:#4f4f4f;
+$blue:#AAD5DF;
+
+
+@mixin rech {
+    padding: .7rem;
+    border-style: none;
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+}
+
+@mixin nodec-maj {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+

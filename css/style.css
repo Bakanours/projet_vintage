@@ -1,2 +1,172 @@
+@charset "UTF-8";
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; }
+
+/*vue desktop*/
+.col-lg-4 {
+  flex-basis: calc(100% / 12 * 3); }
+
+.col-lg-1 {
+  flex-basis: calc(100% / 12 * 1); }
+
+/* #AAD5DF / #A38A7C / #552a20 */
+/*desktop max-width = 1024px;*/
+@media screen and (max-width: 640px) {
+  body {
+    max-width: 100%;
+    clear: both; }
+  .logo {
+    display: block;
+    margin: 0 auto; }
+  .gone {
+    display: none;
+    visibility: hidden; }
+  .row {
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center; }
+  .centered {
+    width: 15rem;
+    margin: 0 auto; }
+  .col-lg-4,
+  .col-lg-1 {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin: 0 auto; }
+  .col-lg-4 img {
+    display: block;
+    width: 100%; } }
+
+@media screen and (min-width: 640px) {
+  .logo {
+    position: absolute; }
+  .slider {
+    max-width: 100%; }
+  .content {
+    max-width: 1024px; }
+  .centered {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 1rem 0 3rem 0; }
+  /*flex dirextion col pour l'aside
+    ajouter les marges à la grille
+    */ }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-size: 16px; }
+
+body {
+  font-family: sans-serif; }
+
+.logo img {
+  width: 30rem; }
+
+h1,
+h2,
+h3 {
+  font-family: 'Open Sans', sans-serif; }
+
+h3 {
+  font-size: 2rem;
+  color: #4f4f4f; }
+
+nav ul li {
+  display: inline;
+  margin-left: 1rem; }
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #000; }
+
+.current-page {
+  width: 100%;
+  background-color: #AAD5DF;
+  padding: 1rem; }
+
+.current-page p {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.current-page a {
+  color: #4f4f4f;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.col-lg-4 img {
+  width: 12.5rem; }
+
+input[type=button] {
+  border-radius: .5rem;
+  padding: .5rem;
+  font-weight: lighter;
+  background-color: #fff; }
+
+input[type=submit] {
+  border-radius: .5rem;
+  background-color: #AAD5DF;
+  color: #fff;
+  padding: .7rem;
+  border-style: none;
+  border-width: 0;
+  border-style: none;
+  border-color: none;
+  border-image: none;
+  font-weight: 600;
+  padding: .8rem 1.5rem .8rem 1.5rem;
+  margin-left: -1.5rem; }
+
+input[type=search] {
+  border-radius: .5rem .5rem 0 .5rem;
+  font-weight: lighter;
+  padding: .7rem;
+  border-style: none;
+  border-width: 0;
+  border-style: none;
+  border-color: none;
+  border-image: none;
+  border: 1px solid #4f4f4f; }

@@ -1,5 +1,89 @@
+@import 'grid';
+@import 'partials';
+@import 'mobile';
+@import 'reset';
+
 html {
-    
-    box-sizing : border-box;
-  
+
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.logo img {
+    width: 30rem;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    font-size: 2rem;
+    color: $gray;
+}
+
+nav ul li {
+
+    display: inline;
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: $black;
+}
+
+.current-page {
+    width: 100%;
+    background-color: $blue;
+    padding: 1rem;
+}
+
+.current-page p {
+    color: $white;
+    @include nodec-maj;
+}
+
+.current-page a {
+    color: $gray;
+    @include nodec-maj;
+}
+
+
+.col-lg-4 img {
+    width: 12.5rem;
+}
+
+input[type=button] {
+    border-radius: .5rem;
+    padding: .5rem;
+    font-weight: lighter;
+    background-color: $white;
+
+}
+
+input[type=submit] {
+    border-radius: .5rem;
+    background-color: $blue;
+    color: $white;
+    @include rech;
+    font-weight: 600;
+    padding: .8rem 1.5rem .8rem 1.5rem;
+    margin-left: -1.5rem;
+}
+
+input[type=search] {
+    border-radius: .5rem .5rem 0 .5rem;
+    font-weight: lighter;
+    @include rech;
+    border: 1px solid $gray;
 }

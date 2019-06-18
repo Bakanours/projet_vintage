@@ -1,0 +1,80 @@
+/*desktop max-width = 1024px;*/
+
+@media screen and (max-width: 640px) {
+
+    body {
+        max-width: 100%;
+        clear: both;
+    }
+
+    .logo {
+        display: block;
+        margin: 0 auto;
+
+
+    }
+
+    .gone {
+        display: none;
+        visibility: hidden;
+    }
+
+    .row {
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .centered {
+        width: 15rem;
+        margin: 0 auto;
+    }
+
+    .col-lg-4,
+    .col-lg-1 {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        margin: 0 auto;
+
+    }
+
+    .col-lg-4 img {
+        display: block;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 640px) {
+
+    .logo {
+        position: absolute;
+
+    }
+
+    .slider {
+        max-width: 100%;
+
+    }
+
+    .content {
+        max-width: 1024px;
+    }
+
+    .centered {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 1rem 0 3rem 0;
+
+    }
+
+   
+    /*flex dirextion col pour l'aside
+    ajouter les marges à la grille
+    */
+
+
+
+}
