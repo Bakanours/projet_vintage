@@ -10,7 +10,7 @@
 </head>
 
 <body>
-     <header>
+    <header>
         <div class="content">
             <!-- logo et champ de recherche -->
             <a href="index.html" class="logo"><img src="img/logo.png" alt="logo vintage lab" /></a>
@@ -74,32 +74,34 @@
 
         <!-- fin iframe google maps -->
 
-        <aside>
-            <h2>Infos contact !</h2>
-            <p class="gras">adresse</p>
-            <p>10 rue machin, 4000 Liège</p>
-            <p class="gras">e-Mail</p>
-            <a href="mailto:vintage@vintage.com"> vintage@vintage.com</a>
-            <p class="gras">tel</p>
-            <p>+32 4 235 15 12 </p>
-            <p class="gras">site:</p>
-            <a href="index.html">www.vintagelab.com</a>
-        </aside>
+        <div class="row">
+            <aside class="col-lg-4">
+                <h2>Infos contact !</h2>
+                <p class="gras">adresse</p>
+                <p>10 rue machin, 4000 Liège</p>
+                <p class="gras">e-Mail</p>
+                <a href="mailto:vintage@vintage.com"> vintage@vintage.com</a>
+                <p class="gras">tel</p>
+                <p>+32 4 235 15 12 </p>
+                <p class="gras">site:</p>
+                <a href="index.html">www.vintagelab.com</a>
+            </aside>
 
-        <form>
-            <input type="text" name="nom" value="nom" />
-            <br>
-            <input type="text" name="prenom" value="prenom" />
-            <br>
-            <input type="email" name="email" value="email" />
-            <br>
-            <input type="checkbox" name="checkbox" value="abo" />Je veux m'abonner
-            <br>
-            <textarea placeholder="Un commentaire ?" name="texte"></textarea>
-            <input type="submit" value="envoyer" />
+            <form class="col-lg-8">
+                Nom : <input type="text" name="nom" value="nom" />
+                <br>
+               Prénom : <input type="text" name="prenom" value="prenom" />
+                <br>
+               E-Mail : <input type="email" name="email" value="email" />
+                <br>
+                <input type="checkbox" name="checkbox" value="abo" />Je veux m'abonner
+                <br>
+                <textarea placeholder="Un commentaire ?" name="texte"></textarea>
+                <input type="submit" value="envoyer" />
 
 
-        </form>
+            </form>
+        </div>
 
     </main>
 

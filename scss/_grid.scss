@@ -2,8 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-bottom: 1.5rem;
-     margin-left: -2rem;
+    margin: 1rem 0 1.5rem -2rem;
+    
     
 }
 
@@ -25,11 +25,16 @@
     flex-basis: calc(100% / 12 * 4 - 2rem );
     margin-left: 2rem;
    
+}
 
+aside.col-lg-4 {
+    
+    margin-right: 2rem;
+    margin-left: 0;
 }
 
 .col-lg-8 {
-    flex-basis: calc(100% / 12 * 8 );  
+    flex-basis: calc(100% / 12 * 8 - 4rem);  
 }
 
 .end {justify-content: flex-end;}

@@ -2,8 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-bottom: 1.5rem;
-  margin-left: -2rem; }
+  margin: 1rem 0 1.5rem -2rem; }
 
 /*vue desktop*/
 .col-lg-4,
@@ -19,8 +18,12 @@
   flex-basis: calc(100% / 12 * 4 - 2rem);
   margin-left: 2rem; }
 
+aside.col-lg-4 {
+  margin-right: 2rem;
+  margin-left: 0; }
+
 .col-lg-8 {
-  flex-basis: calc(100% / 12 * 8); }
+  flex-basis: calc(100% / 12 * 8 - 4rem); }
 
 .end {
   justify-content: flex-end; }
@@ -78,7 +81,9 @@
   .nav-meubles:hover {
     opacity: .3; }
   .min-meubles:hover {
-    opacity: .3; } }
+    opacity: .3; }
+  form input[type=submit]:hover {
+    opacity: .5; } }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -180,7 +185,7 @@ input[type=button] {
   font-weight: lighter;
   background-color: #fff; }
 
-input[type=submit] {
+header input[type=submit] {
   border-radius: .5rem;
   background-color: #AAD5DF;
   color: #fff;
@@ -205,6 +210,12 @@ input[type=search] {
   border-image: none;
   border: 1px solid #4f4f4f; }
 
+.vert {
+  background-image: url(../img/home_page_corner.png);
+  background-repeat: no-repeat;
+  background-position: bottom; }
+
+/* meubles */
 article {
   padding: 1rem;
   border: 1px solid #4f4f4f; }
@@ -216,3 +227,30 @@ article h3 {
 article p {
   color: #000;
   font-weight: 300; }
+
+/* contact */
+aside h2 {
+  font-size: 2rem;
+  padding: .5rem;
+  background-color: #D5E7F2; }
+
+form, aside {
+  background-color: #AAD5DF;
+  padding: 1rem; }
+
+form input, textarea {
+  padding: 1rem;
+  margin: 1rem 0 0 1rem; }
+
+form input[type=submit] {
+  cursor: pointer;
+  background-color: #fff;
+  color: #AAD5DF;
+  font-weight: bolder;
+  padding: .7rem;
+  border-style: none;
+  border-width: 0;
+  border-style: none;
+  border-color: none;
+  border-image: none;
+  border-radius: 5%; }
